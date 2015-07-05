@@ -1,0 +1,11 @@
+keyevt
+
+A simple key event daemon for Linux
+
+(C) 2015 Alexander Holler
+
+See the file LICENSE for the license.
+
+Build it with
+
+	g++ -s -O3 -Wall -pedantic -std=gnu++11 -pthread -o keyevt keyevt.cpp
